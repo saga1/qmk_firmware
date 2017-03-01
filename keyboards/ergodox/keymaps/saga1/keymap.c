@@ -42,14 +42,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                               KC_HOME,
                                                KC_SPC,KC_BSPC,KC_END,
         // right hand
-             KC_7,     KC_8,   KC_9,   KC_0,   KC_MINS,   KC_GRV,          LT(MDIA, KC_PIPE),
-             TG(SYMB),    KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,             KC_PLUS,
-                          KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
-             MEH_T(KC_NO),KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_RSFT,
-                                  KC_UP,  KC_DOWN,KC_LBRC,KC_RBRC,          KC_FN1,
-             KC_LALT,        CTL_T(KC_ESC),
-             KC_PGUP,
-             KC_PGDN,KC_TAB, KC_ENT
+             KC_7,        KC_8,   KC_9,   KC_0,   KC_MINS, KC_EQL, LT(MDIA,KC_JYEN),
+             KC_RSFT,    KC_Y,   KC_U,   KC_I,   KC_O,   KC_P,    KC_LBRC,
+                          KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN, KC_QUOT,
+             MEH_T(KC_NO),KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH, SFT_T(KC_RO),
+                                  KC_UP,  KC_DOWN,KC_RBRC,KC_BSLS, KC_GRV,
+             KC_PLUS,        KC_MINS,
+             KC_PERC,
+             KC_SLSH,KC_DEL, KC_ENT
     ),
 /* Keymap 1: Symbol Layer
  *
